@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0D0D0D;
+  width: 98vw;
+  height: 100%;
+}
+body section.container-main {
+  background-color: #36BFB1;
+  margin: 10% 23%;
+  padding: 50px;
+  width: 600px;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 1px 1px 6px #02735E;
+}
+body section.container-main div.information {
+  text-align: center;
+  font-size: xx-large;
+  margin-top: -5%;
+  margin-bottom: 10px;
+  color: white;
+}
+body section.container-main div.information span {
+  color: #038C73;
+}
+body section.container-main section.convert-values {
+  display: flex;
+  text-align: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  margin: 10px 10px;
+  padding: 10px;
+  justify-content: space-around;
+}
+body section.container-main section.convert-values div.input-values-1 {
+  width: 33%;
+  padding: 10px;
+  background-color: #014034;
+  border: 1px solid #02735E;
+  border-radius: 5px;
+}
+body section.container-main section.convert-values div.input-values-1 img {
+  padding: 10px;
+}
+body section.container-main section.convert-values div.input-values-1 input#real {
+  border-radius: 10px;
+  width: 80px;
+}
+body section.container-main section.convert-values div.input-values-2 {
+  width: 33%;
+  padding: 10px;
+  background-color: #014034;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+body section.container-main section.convert-values div.input-values-2 img {
+  padding: 10px;
+}
+body section.container-main section.convert-values div.input-values-2 p#dollar {
+  color: aliceblue;
+  font-size: medium;
+}
+body section.container-main section.convert-values div.input-button-values {
+  width: 33%;
+  padding: 10px;
+}
+body section.container-main section.convert-values div.input-button-values img {
+  padding: 10px;
+}
+body section.container-main section.convert-values div.input-button-values input#botao-converter {
+  border: 1px solid rgb(3, 73, 78);
+  box-shadow: 1px 1px 8px rgba(4, 7, 190, 0.24);
+  background-color: #2139c5;
+  color: aliceblue;
+  border-radius: 20px;
+  padding: 15px;
+}
+body section.container-main div.convert-values-response {
+  font-size: medium;
+}/*# sourceMappingURL=mainstyle.css.map */

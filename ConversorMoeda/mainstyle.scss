@@ -1,0 +1,110 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #0D0D0D;
+    width: 98vw;
+    height: 100%;
+
+
+    section.container-main{
+
+        background-color: #36BFB1;
+        margin: 10% 23%;
+        padding: 50px;
+        width: 600px;
+        border: 1px solid black;
+        border-radius: 5px;
+        box-shadow: 1px 1px 6px #02735E;
+        
+        div.information{
+
+            text-align: center;
+            font-size: xx-large;
+            margin-top: -5%;
+            margin-bottom: 10px;
+            color: white;
+
+            span{
+                color: #038C73;
+            }
+        }
+
+        section.convert-values{
+
+            display: flex;
+            text-align: center;
+            flex-wrap: nowrap;
+            flex-direction: row;
+            margin: 10px 10px;
+            padding: 10px;
+            justify-content: space-around;
+
+            div.input-values-1{
+
+                width: 33%;
+                padding: 10px;
+               background-color: #014034;
+               border: 1px solid #02735E;
+               border-radius: 5px;
+
+
+                img{
+
+                    padding: 10px;
+                }
+
+                input#real{
+                    border-radius: 10px;
+                    width: 80px;
+                }
+            }
+
+            div.input-values-2{
+
+                width: 33%;
+                padding: 10px;
+                background-color: #014034;
+                border: 1px solid black;
+                border-radius: 5px;
+
+                img{
+                    padding: 10px;
+
+                }
+
+                p#dollar{
+                    color: aliceblue;
+                    font-size: medium;
+                    
+                }
+            }
+
+            div.input-button-values{
+
+                width: 33%;
+                padding: 10px;
+
+                img{
+                    padding: 10px;
+                }
+
+                input#botao-converter{
+                    border: 1px solid rgb(3, 73, 78);
+                    box-shadow: 1px 1px 8px rgba(4, 7, 190, 0.24);
+                    background-color: #2139c5;
+                    color: aliceblue;
+                    border-radius: 20px;
+                    padding: 15px;
+                }
+
+            }
+        }
+
+        div.convert-values-response{
+
+            font-size: medium;
+        }
+    }
+}
